@@ -11,6 +11,21 @@ if (navToggle) {
   });
 }
 
+// Audio
+// Select audio and volume button elements
+const audio = document.getElementById('background-audio');
+const volumeButton = document.getElementById('volume-button1');
+
+// Set initial state to unmuted
+audio.muted = false;
+
+// Toggle mute/unmute on volume icon click
+volumeButton.addEventListener('click', () => {
+  audio.muted = !audio.muted; // Toggle mute state
+  volumeButton.classList.toggle('uil-volume-mute', audio.muted); // Set mute icon
+  volumeButton.classList.toggle('uil-volume-up', !audio.muted);  // Set volume icon
+});
+
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if (navClose) {

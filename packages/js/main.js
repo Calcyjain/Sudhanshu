@@ -15,6 +15,23 @@ if (navToggle) {
 // Select audio and volume button elements
 const audio = document.getElementById('background-audio');
 const volumeButton = document.getElementById('volume-button1');
+const notification = document.getElementById('audio-notification');
+const allowAudioButton = document.getElementById('allow-audio');
+
+// Attempt to play audio immediately
+audio.play().catch(error => {
+    // Show notification if playback is prevented
+    notification.style.display = 'block';
+});
+
+// Handle click to play audio
+allowAudioButton.addEventListener('click', () => {
+    audio.muted = false; // Unmute audio
+    audio.play().catch(error => {
+        console.log('Playback still prevented', error);
+    });
+    notification.style.display = 'none'; // Hide notification after action
+});
 
 // Set initial state to unmuted
 audio.muted = false;

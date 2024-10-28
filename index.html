@@ -17,11 +17,31 @@
     <link rel="stylesheet" href="./packages/css/styles.css">
 
     <title>Sudhanshu Jain</title>
+
+    <style>
+        /* Add styles for volume button */
+        #volume-button.uil-volume-mute::before {
+            content: '\f6a9';
+        }
+
+        /* Unicode for mute icon */
+        #volume-button.uil-volume-up::before {
+            content: '\f028';
+        }
+
+        /* Unicode for volume icon */
+    </style>
 </head>
 
 <body>
+
     <!--==================== HEADER ====================-->
+    
     <header class="header" id="header">
+        <audio id="background-audio" autoplay>
+            <source src="packages/images/navkar.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
         <nav class="nav container">
             <a href="#" class="nav__logo">Sudhanshu Jain</a>
             <div class="nav__menu" id="nav-menu">
@@ -68,7 +88,9 @@
             <div class="nav__btns">
                 <!-- Theme change button -->
 
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <i class="uil uil-moon change-theme" id="theme-button" style="padding-right: 10px ;"></i>
+                <!-- Volume toggle button -->
+                <i class="uil uil-volume-up change-theme" id="volume-button1"></i>
 
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>

@@ -361,6 +361,32 @@ img {
   font-size: 1.25rem;
 }
 
+.home__content,
+.home__social,
+.home__blob,
+.home__data,
+.home__title,
+.home__subtitle,
+.home__description,
+.home__scroll {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Transition effect when entering viewport */
+.home-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Additional hover effect on social icons */
+.home__social-icon:hover {
+  color: var(--first-color-alt);
+  transform: scale(1.1);
+  transition: color 0.3s, transform 0.3s;
+}
+
 /*==================== BUTTONS ====================*/
 
 .button {
@@ -415,26 +441,53 @@ img {
 /*==================== ABOUT ====================*/
 .about__img {
   width: 200px;
-  border-radius: 0.5rem;
+  border-radius: 5%;
+  /* Changed to circular image */
   justify-self: center;
   align-items: center;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.about__img.visible {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .about__description {
   text-align: center;
   margin-bottom: var(--mb-2-5);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.about__description.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .about__info {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
+  gap: 1rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.about__info.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .about__info-title {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .about__info-name {
@@ -447,13 +500,44 @@ img {
   text-align: center;
 }
 
+/* Hover effect on info blocks */
+.about__info div:hover .about__info-title {
+  color: var(--first-color);
+  transform: scale(1.1);
+}
+
 .about__buttons {
   display: flex;
   justify-content: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.about__buttons.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Button animation */
+.about__buttons .button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--first-color);
+  color: #fff;
+  font-weight: var(--font-semi-bold);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.about__buttons .button:hover {
+  background-color: var(--first-color-alt);
+  transform: scale(1.05);
 }
 
 /*==================== SKILLS ====================*/
-
+/* 
 .skills__container {
   row-gap: 0;
 }
@@ -580,9 +664,9 @@ img {
 
 .skills__open .skills__arrow {
   transform: rotate(-180deg);
-}
+} */
 
-/*==================== QUALIFICATION ====================*/
+/*==================== MY JOURNEY ====================*/
 .qualification__tabs {
   display: flex;
   justify-content: space-evenly;
@@ -654,6 +738,25 @@ img {
 .qualification__button.qualification__active {
   color: var(--first-color);
 }
+
+/* Initial styles with translation for slide effect */
+.qualification__data {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.qualification__data:nth-child(even) {
+  transform: translateX(0px);
+  /* Alternate direction */
+}
+
+/* Animation effect when element becomes visible */
+.qualification-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 
 /*==================== SERVICES ====================*/
 .services__container {
@@ -775,6 +878,20 @@ img {
   opacity: 1;
   visibility: visible;
 }
+
+/* Initial hidden state */
+.services__content {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Visible state with animation */
+.services-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
@@ -1047,6 +1164,19 @@ img {
 .footer__link,
 .footer__social {
   color: #fff;
+}
+
+/* Initial state for fade-in effect */
+.contact__container,
+.footer__bg {
+  opacity: 0;
+  transition: opacity 2.0s ease;
+  /* Duration and timing function for the transition */
+}
+
+/* State when visible */
+.fade-in {
+  opacity: 1;
 }
 
 /*========== SCROLL UP ==========*/

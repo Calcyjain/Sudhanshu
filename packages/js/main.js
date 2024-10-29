@@ -314,7 +314,11 @@ document.addEventListener("DOMContentLoaded", function () {
             item.classList.add("services-visible");
           }, index * 200); // Staggered delay (200ms) per item
         });
-      } 
+      } else {
+        serviceItems.forEach(item => {
+          item.classList.remove("services-visible");
+        });
+      }
     });
   }, { threshold: 0.2 });
 

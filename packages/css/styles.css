@@ -761,7 +761,8 @@ img {
 /*==================== SERVICES ====================*/
 .services__container {
   display: grid;
-  gap: 1.5rem;
+  row-gap: 2rem;
+  column-gap: 9rem;
   grid-template-columns: repeat(2, 1fr);
   /* 2 columns for larger screens */
 }
@@ -771,19 +772,6 @@ img {
   /* Force 2 columns, overriding any default */
 }
 
-@media (max-width: 768px) {
-  .services__container {
-    grid-template-columns: repeat(1, 1fr);
-    /* 1 column for small screens */
-  }
-
-  .container.grid-1 {
-    grid-template-columns: repeat(1, 1fr) !important;
-    /* Override to 1 column for small screens */
-  }
-}
-
-
 .services__content {
   position: relative;
   background-color: var(--container-color);
@@ -791,6 +779,8 @@ img {
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transition: 0.3s;
+  width: 300px;
+  height: 256px;
 }
 
 .services__content:hover {
@@ -806,7 +796,7 @@ img {
 
 .services__title {
   font-size: var(--normal-font-size);
-  margin-top: var(--mb-4);
+  margin-top: 5.5rem;
   font-weight: var(--font-medium);
 }
 
@@ -890,6 +880,20 @@ img {
 .services-visible {
   opacity: 1;
   transform: translateY(0);
+}
+@media (max-width: 768px) {
+  .services__container {
+    grid-template-columns: repeat(1, 1fr);
+    /* 1 column for small screens */
+  }
+
+  .container.grid-1 {
+    grid-template-columns: repeat(1, 1fr) !important;
+    /* Override to 1 column for small screens */
+  }
+  .services__title{
+    margin-top: 8rem;
+  }
 }
 
 

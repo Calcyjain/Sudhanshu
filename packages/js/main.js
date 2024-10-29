@@ -20,17 +20,17 @@ const allowAudioButton = document.getElementById('allow-audio');
 
 // Attempt to play audio immediately
 audio.play().catch(error => {
-    // Show notification if playback is prevented
-    notification.style.display = 'block';
+  // Show notification if playback is prevented
+  notification.style.display = 'block';
 });
 
 // Handle click to play audio
 allowAudioButton.addEventListener('click', () => {
-    audio.muted = false; // Unmute audio
-    audio.play().catch(error => {
-        console.log('Playback still prevented', error);
-    });
-    notification.style.display = 'none'; // Hide notification after action
+  audio.muted = false; // Unmute audio
+  audio.play().catch(error => {
+    console.log('Playback still prevented', error);
+  });
+  notification.style.display = 'none'; // Hide notification after action
 });
 
 // Set initial state to unmuted
@@ -249,19 +249,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Set up the observer to check for section visibility
   const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              // Add 'visible' class when the section enters the viewport
-              animatedElements.forEach(element => {
-                  element.classList.add("visible");
-              });
-          } else {
-              // Remove 'visible' class when the section leaves the viewport
-              animatedElements.forEach(element => {
-                  element.classList.remove("visible");
-              });
-          }
-      });
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Add 'visible' class when the section enters the viewport
+        animatedElements.forEach(element => {
+          element.classList.add("visible");
+        });
+      } else {
+        // Remove 'visible' class when the section leaves the viewport
+        animatedElements.forEach(element => {
+          element.classList.remove("visible");
+        });
+      }
+    });
   }, { threshold: 0.3 }); // Start the animation when 30% of the section is visible
 
   observer.observe(aboutSection);
@@ -271,17 +271,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const homeElements = document.querySelectorAll(".home__content, .home__social, .home__blob, .home__data, .home__title, .home__subtitle, .home__description, .home__scroll");
 
   const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              homeElements.forEach(element => {
-                  element.classList.add("home-visible");
-              });
-          } else {
-              homeElements.forEach(element => {
-                  element.classList.remove("home-visible");
-              });
-          }
-      });
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        homeElements.forEach(element => {
+          element.classList.add("home-visible");
+        });
+      } else {
+        homeElements.forEach(element => {
+          element.classList.remove("home-visible");
+        });
+      }
+    });
   }, { threshold: 0.3 });
 
   observer.observe(homeSection);
@@ -290,15 +290,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const qualificationItems = document.querySelectorAll(".qualification__data");
 
   const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              qualificationItems.forEach((item, index) => {
-                  setTimeout(() => {
-                      item.classList.add("qualification-visible");
-                  }, index * 200); // Adjust delay (200ms) for the stagger effect
-              });
-          }
-      });
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        qualificationItems.forEach((item, index) => {
+          setTimeout(() => {
+            item.classList.add("qualification-visible");
+          }, index * 200); // Adjust delay (200ms) for the stagger effect
+        });
+      }
+    });
   }, { threshold: 0.3 });
 
   qualificationItems.forEach(item => observer.observe(item));
@@ -307,19 +307,19 @@ document.addEventListener("DOMContentLoaded", function () {
   const serviceItems = document.querySelectorAll(".services__content");
 
   const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              serviceItems.forEach((item, index) => {
-                  setTimeout(() => {
-                      item.classList.add("services-visible");
-                  }, index * 200); // Staggered delay (200ms) per item
-              });
-          } else {
-              serviceItems.forEach(item => {
-                  item.classList.remove("services-visible");
-              });
-          }
-      });
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        serviceItems.forEach((item, index) => {
+          setTimeout(() => {
+            item.classList.add("services-visible");
+          }, index * 200); // Staggered delay (200ms) per item
+        });
+      } else {
+        serviceItems.forEach(item => {
+          item.classList.remove("services-visible");
+        });
+      }
+    });
   }, { threshold: 0.2 });
 
   serviceItems.forEach(item => observer.observe(item));
@@ -328,16 +328,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const sections = document.querySelectorAll(".contact__container, .footer__bg");
 
   const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              entry.target.classList.add("fade-in");
-          } else {
-              entry.target.classList.remove("fade-in");
-          }
-      });
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("fade-in");
+      } else {
+        entry.target.classList.remove("fade-in");
+      }
+    });
   }, { threshold: 0.2 });
 
   sections.forEach(section => {
-      observer.observe(section);
+    observer.observe(section);
   });
 });

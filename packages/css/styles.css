@@ -883,15 +883,12 @@ img {
 }
 @media (max-width: 768px) {
   .services__container {
-    grid-template-columns: repeat(1, 1fr);
-    /* 1 column for small screens */
+    grid-template-columns: 1fr;
+    margin: 0 auto; /* Centers the container itself */
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    justify-items: center; /* Centers items within the grid */
   }
-
-  .container.grid-1 {
-    grid-template-columns: repeat(1, 1fr) !important;
-    /* Override to 1 column for small screens */
-  }
-  .services__title{
+  .services__title {
     margin-top: 8rem;
   }
 }

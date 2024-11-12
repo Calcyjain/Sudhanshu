@@ -1032,6 +1032,9 @@ img {
 
 .testimonial__description {
   margin-bottom: var(--mb-2-5);
+  max-height: 150px;  /* Set max-height for the testimonial text */
+  overflow-y: auto;   /* Enable vertical scrolling if content exceeds max-height */
+  padding-right: 10px; /* Optional: to avoid scroll bar overlapping text */
 }
 
 .testimonial__icon-star {

@@ -14,6 +14,20 @@ document.addEventListener("DOMContentLoaded", () => {
       text: "Jai Jinendra, Main abhi jain vidya aur tatva gyan donno ki student hu aapke dwara Jo adhyayan karvaya ja raha hai vah Ati gyanvardhak Hai, Mere Liye vah bahut upyogi hai Mujhe punaravartan karne mein vah bahut  kargar Siddh ho raha ha aapke dwara Jo Baat samjhai jaati hai vah bahut Saral aur gyanvardhak hoti hai, aapki Bhasha aur Shaili bahut Saral hai aap bahut gehri Baat Ko acche se Samjha paate hain aur sab Hamen samajh mein aa jata hai main Asha Karti hun ki Bhavishya mein bhi aap Hamari Aisi hi classes lete Rahenge Hamare gyan ko aise hi pusht karte rahenge isi ummid aur Vishwas ke sath dhanyvad. Om Arham🙏"
     },
     {
+      name: "Pratibha Sethia",
+      location: "Bikaner",
+      image: "./packages/images/testimonial dhar.jpg",
+      text: "सर आपकी पढ़ने का तरीका इतना सरल है कि वह सीधा दिमाग में सेट हो जाता है और सबसे बड़ी बात बहुत ही शॉर्ट में हर चीज को इतना सटीक बता देते हैं कि बहुत कम टाइम में याद हो जाता है और आपके पढ़ाने से हमारे पढ़ने में बहुत आसानी हो जाती है। आपसे प्रश्न पूछते समय मन में हिचकिचाहट नहीं रहती कि आप क्या सोचेंगे हम लोग बिंदास पूछ लेते हैं। your way of study is simply superb.🙏🏻🙏🏻
+"
+    },
+    {
+      name: "Sital Jain",
+      location: "Kolkata",
+      image: "./packages/images/testimonial dhar.jpg",
+      text: "Aapke Classes bohot acchi laagti hai. Aap iss par dhyan dete hai ki humein jain dhram ka basic se lekar deep knowledge prapt ho sake..aap jo bhi book parate hai wo exam ke dristi se nahi balki gyan arjan ke liye karwate hai.. Usmein bhi agar hum koyi bhi general topic  jaise daily life mein kya kya follow karna cahiye etc. ka doubt hota hai uska bhi samadhan bohot acche se turant de dete hai .Humein aap samyakti baane ke liye prena dete hai. Aap aishe bhi class dete hai aur humari samyak dristi pusht karte hai. 
+"
+    },
+    {
       name: "Deepti Dhandia",
       location: "Jaipur",
       image: "./packages/images/testimonial dhar.jpg",

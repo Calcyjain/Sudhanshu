@@ -1045,6 +1045,34 @@ img {
   bottom: 0;
 }
 
+/* === Testimonials Swiper Layout Fix === */
+
+/* Ensure Swiper arranges slides side by side */
+.swiper-wrapper {
+  display: flex;
+}
+
+/* Make each testimonial slide take up equal space */
+.swiper-slide {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: auto; /* Let Swiper handle width dynamically */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .swiper-slide {
+    width: calc(50% - 20px); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .swiper-slide {
+    width: 100%; /* 1 per row on small screens */
+  }
+}
+
+
 /*==================== CONTACT ME ====================*/
 .contact__container {
   display: flex;
@@ -1567,3 +1595,4 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+

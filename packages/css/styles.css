@@ -1078,6 +1078,15 @@ img {
   background: var(--first-color);
   border-radius: 5px;
 }
+.testimonial__container .swiper-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.testimonial__container .swiper-slide {
+  width: 100% !important;
+}
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
@@ -1601,5 +1610,6 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 

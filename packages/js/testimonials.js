@@ -13,6 +13,25 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./packages/images/testimonial dhar.jpg",
       text: "Jai Jinendra, Main abhi jain vidya aur tatva gyan donno ki student hu aapke dwara Jo adhyayan karvaya ja raha hai vah Ati gyanvardhak Hai, Mere Liye vah bahut upyogi hai Mujhe punaravartan karne mein vah bahut  kargar Siddh ho raha ha aapke dwara Jo Baat samjhai jaati hai vah bahut Saral aur gyanvardhak hoti hai, aapki Bhasha aur Shaili bahut Saral hai aap bahut gehri Baat Ko acche se Samjha paate hain aur sab Hamen samajh mein aa jata hai main Asha Karti hun ki Bhavishya mein bhi aap Hamari Aisi hi classes lete Rahenge Hamare gyan ko aise hi pusht karte rahenge isi ummid aur Vishwas ke sath dhanyvad. Om Arham🙏"
     },
+     {
+      name: "Margi Khandor",
+      location: "Mumbai",
+      image: "./packages/images/testimonial dhar.jpg",
+      text: "Jj sir..I couldn't attend your regular classes much but whenever I get time, I listen to your  videos and learn tatvagyan from them. Not only your way of teaching is good,  but  also you  teach us many practical day to day points to remember. The language,  the terminology,  the difference between words etc. We get to know which we will remember for long time. Thank you for making you tube videos  and post them so that we can learn and revise at our preferred time. kritagyosmi🙏🏻🙏🏻🙏🏻"
+    },
+     {
+      name: "लीला धाकड़",
+      location: "माटुंगा",
+      image: "./packages/images/testimonial dhar.jpg",
+      text: "सर ,आप हमे जो श्रमण महावीर पुस्तक का अध्ययन करवा रहे हैं वह अत्यंत रुचिपूर्ण तरीकें से हो रहा हैं।हमने जैन विद्या भाग ८ का स्वाध्याय स्वत प्रारंभ किया तो हमे यह कठिन लग रहा था क्योंकि इसके कई शब्दों का अर्थ हमारे समझ से परे था ।आप हमारे पुस्तक के हर संशय को दूर करते है और समय पर जवाब मिलने से वह हमे याद रखने में आसानी होती हैं। और अंत में जो सवाल जवाब का क्रम चलता है उससे भी हमारा पुनरावर्तन हों जाता हैं।आप  को  बहुत बहुत साधुवाद आप हमे इतने सरल तरीके से पुस्तक को समझा रहे हैं। 🙏🏻आप से अनुरोध है कि इसी तरह हमे स्वाध्याय कराते रहे ।
+"
+    },
+     {
+      name: "Sunita Parakh",
+      location: "Visakhapatnam",
+      image: "./packages/images/testimonial dhar.jpg",
+      text: "Jai Jinendra, Main abhi jain vidya aur tatva gyan donno ki student hu aapke dwara Jo adhyayan karvaya ja raha hai vah Ati gyanvardhak Hai, Mere Liye vah bahut upyogi hai Mujhe punaravartan karne mein vah bahut  kargar Siddh ho raha ha aapke dwara Jo Baat samjhai jaati hai vah bahut Saral aur gyanvardhak hoti hai, aapki Bhasha aur Shaili bahut Saral hai aap bahut gehri Baat Ko acche se Samjha paate hain aur sab Hamen samajh mein aa jata hai main Asha Karti hun ki Bhavishya mein bhi aap Hamari Aisi hi classes lete Rahenge Hamare gyan ko aise hi pusht karte rahenge isi ummid aur Vishwas ke sath dhanyvad. Om Arham🙏"
+    },
     {
       name: "Pratibha Sethia",
       location: "Bikaner",

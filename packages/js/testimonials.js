@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
       text: "जय जिनेन्द्र 🙏 आपकी सहज सरल एवं सिक्षाप्रद्ध शैली से हमें जो भी थोड़ा बहुत ज्ञान प्राप्त हुआ है उसके लिए आपका बहुत बहुत आभार। भविष्य में भी हम आपकी सेवाओं से लाभान्वित होते रहेंगे ऐसी शुभकामना 🙏🙏"
     },
     {
-      name: "Priya Sharma",
-      location: "Mumbai",
+      name: "Sunita Parakh",
+      location: "Visakhapatnam",
       image: "./packages/images/testimonial1.jpg",
-      text: "Loved the experience! The content was engaging and professionally delivered."
+      text: "Jai Jinendra, Main abhi jain vidya aur tatva gyan donno ki student hu aapke dwara Jo adhyayan karvaya ja raha hai vah Ati gyanvardhak Hai, Mere Liye vah bahut upyogi hai Mujhe punaravartan karne mein vah bahut  kargar Siddh ho raha ha aapke dwara Jo Baat samjhai jaati hai vah bahut Saral aur gyanvardhak hoti hai, aapki Bhasha aur Shaili bahut Saral hai aap bahut gehri Baat Ko acche se Samjha paate hain aur sab Hamen samajh mein aa jata hai main Asha Karti hun ki Bhavishya mein bhi aap Hamari Aisi hi classes lete Rahenge Hamare gyan ko aise hi pusht karte rahenge isi ummid aur Vishwas ke sath dhanyvad. Om Arham🙏"
     },
     {
       name: "Rajesh Patel",

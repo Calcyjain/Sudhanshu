@@ -1087,6 +1087,15 @@ img {
 .testimonial__container .swiper-slide {
   width: 100% !important;
 }
+/* ✅ Center the 2×2 testimonial grid */
+.testimonial__container .swiper-wrapper {
+  justify-items: center;
+}
+
+.testimonial__content {
+  width: 100%;
+  max-width: 500px; /* optional: keeps them neat and equal */
+}
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
@@ -1610,6 +1619,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 

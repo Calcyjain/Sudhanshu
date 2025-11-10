@@ -14,16 +14,16 @@ document.addEventListener("DOMContentLoaded", () => {
       text: "Jai Jinendra, Main abhi jain vidya aur tatva gyan donno ki student hu aapke dwara Jo adhyayan karvaya ja raha hai vah Ati gyanvardhak Hai, Mere Liye vah bahut upyogi hai Mujhe punaravartan karne mein vah bahut  kargar Siddh ho raha ha aapke dwara Jo Baat samjhai jaati hai vah bahut Saral aur gyanvardhak hoti hai, aapki Bhasha aur Shaili bahut Saral hai aap bahut gehri Baat Ko acche se Samjha paate hain aur sab Hamen samajh mein aa jata hai main Asha Karti hun ki Bhavishya mein bhi aap Hamari Aisi hi classes lete Rahenge Hamare gyan ko aise hi pusht karte rahenge isi ummid aur Vishwas ke sath dhanyvad. Om Arham🙏"
     },
     {
-      name: "Rajesh Patel",
-      location: "Ahmedabad",
+      name: "Kavita Dugar",
+      location: "Kolkata",
       image: "./packages/images/testimonial2.jpg",
-      text: "Clear communication and a great understanding of what the audience needs."
+      text: "Jai jinendra sa🙏🏻 Aapka adhyapan ka ye kram nihsandeh hi anumodaniya hai...iske liye tahedil se aabhar. Aapke prayas aur lagatar prayatn se hum sabhi jo aapse zoom ke madhyam se jude wo nishchit rup se labhanvit hue hain aisa prateet hota hai. Ek vinamr nivedan hai aapse ki is kram ko jaari rakhen aur ek ek kar sabhi thokde aur avbodh  pustak ka sampoorna swadhyay karwa saken to  sabhi labhanvit honge. shanivar ki subah ka kram vishesh ullekhniya hai.kuch vishay jaise anekantwad, nay,anupreksha aadi par vistrit jaankari pradan karne ka kram chal sakta hai.🙏🏻"
     },
     {
-      name: "Ananya Gupta",
-      location: "Delhi",
+      name: "Suman Choraria",
+      location: "Secundarabad",
       image: "./packages/images/testimonial3.jpg",
-      text: "Fantastic approach — creative, insightful, and always on point!"
+      text: "Shraman bhagwan Mahavir book ka adhyan jabse apne padhana shuru kiya hai tabse iss pustak k prati Ruchi badh gayi hai. Ek ghante ki class kab khatam ho jati hai pata nhi chalta. Aise toh lesson ko padhne Mai bht katnayi aati thi par apke padhane k baad sub samaj aata hai. Kritogyosmi Sir"
     },
     {
       name: "Sanjay Mehta",

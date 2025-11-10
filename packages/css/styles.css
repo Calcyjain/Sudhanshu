@@ -1003,9 +1003,38 @@ img {
 }
 
 /*==================== TESTIMONIAL ====================*/
+.testimonial__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 per row */
+  gap: 2rem; /* space between testimonials */
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .testimonial__container {
+    grid-template-columns: 1fr; /* stack on small screens */
+  }
+}
+
+.testimonial__content {
+  background-color: var(--container-color);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.testimonial__content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
 .testimonial__data,
 .testimonial__header {
   display: flex;
+  align-items: center;
 }
 
 .testimonial__data {
@@ -1018,6 +1047,7 @@ img {
   height: 60px;
   border-radius: 50%;
   margin-right: var(--mb-0-75);
+  object-fit: cover;
 }
 
 .testimonial__name {
@@ -1032,46 +1062,22 @@ img {
 
 .testimonial__description {
   margin-bottom: var(--mb-2-5);
-  max-height: 150px;  /* Set max-height for the testimonial text */
-  overflow-y: auto;   /* Enable vertical scrolling if content exceeds max-height */
-  padding-right: 10px; /* Optional: to avoid scroll bar overlapping text */
+  max-height: 150px; /* scroll if text is long */
+  overflow-y: auto;
+  padding-right: 10px;
+  color: var(--text-color);
+  line-height: 1.5;
 }
 
-.testimonial__icon-star {
-  color: var(--first-color);
+/* Optional: hide scrollbar for a cleaner look (only on webkit browsers) */
+.testimonial__description::-webkit-scrollbar {
+  width: 5px;
 }
 
-.swiper-container .swiper-pagination-testimonial {
-  bottom: 0;
+.testimonial__description::-webkit-scrollbar-thumb {
+  background: var(--first-color);
+  border-radius: 5px;
 }
-
-/* === Testimonials Swiper Layout Fix === */
-
-/* Ensure Swiper arranges slides side by side */
-.swiper-wrapper {
-  display: flex;
-}
-
-/* Make each testimonial slide take up equal space */
-.swiper-slide {
-  flex-shrink: 0;
-  box-sizing: border-box;
-  width: auto; /* Let Swiper handle width dynamically */
-}
-
-/* Responsive adjustments */
-@media (max-width: 1024px) {
-  .swiper-slide {
-    width: calc(50% - 20px); /* 2 per row on tablets */
-  }
-}
-
-@media (max-width: 600px) {
-  .swiper-slide {
-    width: 100%; /* 1 per row on small screens */
-  }
-}
-
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
@@ -1595,4 +1601,5 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 

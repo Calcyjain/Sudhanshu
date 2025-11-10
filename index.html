@@ -1048,18 +1048,19 @@
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
-
-    <!--==================== SWIPER JS ====================-->
-    <script src="./packages/js/swiper-bundle.min.js"></script>
-
-    <!--==================== MAIN JS ====================-->
-    <script src="./packages/js/main.js"></script>
+<!--==================== SWIPER JS ====================-->
+<script src="./packages/js/swiper-bundle.min.js"></script>
     
-    <!-- Testimonials JS (dynamic injection) -->
-    <script src="./js/testimonials.js"></script>
+<!-- Testimonials (injects HTML first) -->
+<script src="./js/testimonials.js"></script>
+
+<!-- Main JS (initializes Swiper after testimonials exist) -->
+<script src="./js/main.js"></script>
+    
 </body>
 
 </html>
+
 
 
 

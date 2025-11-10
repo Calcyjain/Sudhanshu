@@ -81,30 +81,25 @@ document.addEventListener("DOMContentLoaded", () => {
     return shuffled.slice(0, n);
   }
 
-  // Pick 4 random testimonials
   const selected = getRandomTestimonials(4);
+  const wrapper = document.getElementById("testimonial-wrapper");
 
-  // Get swiper wrapper
-  const wrapper = document.querySelector(".testimonial__container .swiper-wrapper");
-
-  // Inject HTML for selected testimonials
   if (wrapper) {
     wrapper.innerHTML = selected
       .map(
         (t) => `
-          <div class="testimonial__content swiper-slide">
-            <div class="testimonial__data">
-              <div class="testimonial__header">
-                <img src="${t.image}" alt="${t.name}" class="testimonial__img">
-                <div>
-                  <h3 class="testimonial__name">${t.name}</h3>
-                  <span class="testimonial__client">${t.location}</span>
-                </div>
+        <div class="testimonial__content">
+          <div class="testimonial__data">
+            <div class="testimonial__header">
+              <img src="${t.image}" alt="${t.name}" class="testimonial__img">
+              <div>
+                <h3 class="testimonial__name">${t.name}</h3>
+                <span class="testimonial__client">${t.location}</span>
               </div>
             </div>
-            <p class="testimonial__description">${t.text}</p>
           </div>
-        `
+          <p class="testimonial__description">${t.text}</p>
+        </div>`
       )
       .join("");
   }

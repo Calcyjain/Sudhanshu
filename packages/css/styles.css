@@ -1010,7 +1010,7 @@ img {
   grid-template-rows: auto auto;          /* 2 rows */
   gap: 2.5rem 4rem;                      /* row-gap | column-gap */
   justify-content: center;
-  align-items: start;
+  align-items: center;
   margin-top: 2rem;
   max-width: 1000px;                     /* keep layout centered */
   margin-left: auto;
@@ -1626,6 +1626,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 

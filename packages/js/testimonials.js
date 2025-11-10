@@ -26,10 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
       text: "Shraman bhagwan Mahavir book ka adhyan jabse apne padhana shuru kiya hai tabse iss pustak k prati Ruchi badh gayi hai. Ek ghante ki class kab khatam ho jati hai pata nhi chalta. Aise toh lesson ko padhne Mai bht katnayi aati thi par apke padhane k baad sub samaj aata hai. Kritogyosmi Sir"
     },
     {
-      name: "Sanjay Mehta",
-      location: "Pune",
+      name: "हेमलता लुनिया",
+      location: "अहमदाबाद",
       image: "./packages/images/testimonial4.jpg",
-      text: "Highly recommended! The presentation and delivery were outstanding."
+      text: "श्रमण  भगवान महावीर की पुस्तक का अध्ययन सर  बहुत अच्छा करवा रहे हैं। बार-बार अध्ययन करने से हमें याद करने में फायदा रहेगा 86 वर्ष के मेरी सासू मां भी सर पढ़ाते हैं तो वह भी मेरे पास बैठ जाते हैं समय होने पर बोलते हैं क्लास का टाइम हो गया है उनका भी मन रहता है ,मैं भी भगवान के बारे में सुनलु 🙏"
     }
   ];
 

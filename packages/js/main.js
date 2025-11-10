@@ -155,13 +155,11 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
   },
 
   breakpoints: {
-    568: {
-      slidesPerView: 2,
-    },
+    320: { slidesPerView: 1 },
+    640: { slidesPerView: 2 },
+    1024: { slidesPerView: 3 },
+    1280: { slidesPerView: 4 }, // 👈 full size
   },
-
-  /* mousewheel: true,
-  keyboard: true, */
 });
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
@@ -337,3 +335,4 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(section);
   });
 });
+

@@ -13,6 +13,18 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./packages/images/testimonial dhar.jpg",
       text: "Jai Jinendra, Main abhi jain vidya aur tatva gyan donno ki student hu aapke dwara Jo adhyayan karvaya ja raha hai vah Ati gyanvardhak Hai, Mere Liye vah bahut upyogi hai Mujhe punaravartan karne mein vah bahut  kargar Siddh ho raha ha aapke dwara Jo Baat samjhai jaati hai vah bahut Saral aur gyanvardhak hoti hai, aapki Bhasha aur Shaili bahut Saral hai aap bahut gehri Baat Ko acche se Samjha paate hain aur sab Hamen samajh mein aa jata hai main Asha Karti hun ki Bhavishya mein bhi aap Hamari Aisi hi classes lete Rahenge Hamare gyan ko aise hi pusht karte rahenge isi ummid aur Vishwas ke sath dhanyvad. Om Arham🙏"
     },
+    {
+      name: "Deepti Dhandia",
+      location: "Jaipur",
+      image: "./packages/images/testimonial dhar.jpg",
+      text: "Appka bahut dyanvad jo bhi app ka study karta ha..muja bahut acha se smjha aata ha ..appka study karna ka method bahut easy ha.🙏🏻😊.. aapke online adhyayan karane se Hamari study Mein Kafi help Hui Hai. aap Hame Hamesha aise hi adhyayan karate rahiye sir..om arham.🙏🏻"
+    },
+    {
+      name: "Sneh Daga",
+      location: "Kolkata",
+      image: "./packages/images/testimonial dhar.jpg",
+      text: "You make learning easy and understandable by your exemplary learning ways by giving examples and not just bookish knowledge. It is always easy to ask you questions and you have such great patience that you reply to each individual queries.🫡 You behave more like a friend rather than a teacher which makes us easy to ask anything.✌️ Keep teaching and growing.🪄"
+    },
      {
       name: "प्रभा नाहटा",
       location: "मदुराई",

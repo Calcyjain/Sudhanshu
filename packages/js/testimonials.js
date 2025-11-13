@@ -129,8 +129,12 @@ document.addEventListener("DOMContentLoaded", () => {
     return shuffled.slice(0, n);
   }
 
-  const selected = getRandomTestimonials(4);
-  const wrapper = document.getElementById("testimonial-wrapper");
+   const wrapper = document.getElementById("testimonial-wrapper");
+
+  // Determine how many testimonials to show based on screen width
+  const numTestimonials = window.innerWidth <= 768 ? 2 : 4;
+
+  const selected = getRandomTestimonials(numTestimonials);
 
   if (wrapper) {
     wrapper.innerHTML = selected

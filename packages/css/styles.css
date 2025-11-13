@@ -1089,6 +1089,15 @@ img {
     max-width: 600px;
   }
 }
+
+@media (max-width: 768px) {
+  #testimonial-wrapper {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(2, auto) !important;
+    max-width: 600px;
+  }
+}
+
 /* Force grid layout for testimonials (disable swiper flex) */
 #testimonial-wrapper {
   display: grid !important;
@@ -1626,6 +1635,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 

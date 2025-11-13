@@ -1076,29 +1076,7 @@ img {
 }
 
 /* responsive */
-@media (max-width: 1024px) {
-  .testimonial__container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .testimonial__container {
-    grid-template-columns: 1fr;
-    max-width: 600px;
-  }
-}
-
-@media (max-width: 768px) {
-  #testimonial-wrapper {
-    grid-template-columns: 1fr !important;
-    grid-template-rows: repeat(2, auto) !important;
-    max-width: 600px;
-  }
-}
-
-/* Force grid layout for testimonials (disable swiper flex) */
+/* Desktop / Default: 2×2 grid */
 #testimonial-wrapper {
   display: grid !important;
   grid-template-columns: repeat(2, 1fr) !important;
@@ -1112,6 +1090,29 @@ img {
   margin-right: auto;
 }
 
+/* Tablet: still 2 per row */
+@media (max-width: 1024px) {
+  #testimonial-wrapper {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 2rem;
+  }
+}
+
+/* Mobile: 1×2 grid (stack vertically) */
+@media (max-width: 768px) {
+  .testimonial__container,
+  #testimonial-wrapper,
+  .swiper-wrapper {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(2, auto) !important;
+    gap: 1.5rem !important;
+    justify-content: center;
+    align-items: start;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
@@ -1635,6 +1636,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 

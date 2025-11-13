@@ -10,25 +10,25 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "Sunita Parakh",
       location: "Visakhapatnam",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Sunita.jpeg",
       text: "Jai Jinendra, Main abhi jain vidya aur tatva gyan donno ki student hu aapke dwara Jo adhyayan karvaya ja raha hai vah Ati gyanvardhak Hai, Mere Liye vah bahut upyogi hai Mujhe punaravartan karne mein vah bahut  kargar Siddh ho raha ha aapke dwara Jo Baat samjhai jaati hai vah bahut Saral aur gyanvardhak hoti hai, aapki Bhasha aur Shaili bahut Saral hai aap bahut gehri Baat Ko acche se Samjha paate hain aur sab Hamen samajh mein aa jata hai main Asha Karti hun ki Bhavishya mein bhi aap Hamari Aisi hi classes lete Rahenge Hamare gyan ko aise hi pusht karte rahenge isi ummid aur Vishwas ke sath dhanyvad. Om Arham🙏"
     },
      {
       name: "Margi Khandor",
       location: "Mumbai",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Margi.jpeg",
       text: "Jj sir..I couldn't attend your regular classes much but whenever I get time, I listen to your  videos and learn tatvagyan from them. Not only your way of teaching is good,  but  also you  teach us many practical day to day points to remember. The language,  the terminology,  the difference between words etc. We get to know which we will remember for long time. Thank you for making you tube videos  and post them so that we can learn and revise at our preferred time. kritagyosmi🙏🏻🙏🏻🙏🏻"
     },
      {
       name: "लीला धाकड़",
       location: "माटुंगा",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Leela.jpeg",
       text: "सर ,आप हमे जो श्रमण महावीर पुस्तक का अध्ययन करवा रहे हैं वह अत्यंत रुचिपूर्ण तरीकें से हो रहा हैं।हमने जैन विद्या भाग ८ का स्वाध्याय स्वत प्रारंभ किया तो हमे यह कठिन लग रहा था क्योंकि इसके कई शब्दों का अर्थ हमारे समझ से परे था ।आप हमारे पुस्तक के हर संशय को दूर करते है और समय पर जवाब मिलने से वह हमे याद रखने में आसानी होती हैं। और अंत में जो सवाल जवाब का क्रम चलता है उससे भी हमारा पुनरावर्तन हों जाता हैं।आप  को  बहुत बहुत साधुवाद आप हमे इतने सरल तरीके से पुस्तक को समझा रहे हैं। 🙏🏻आप से अनुरोध है कि इसी तरह हमे स्वाध्याय कराते रहे"
     },
     {
       name: "Pratibha Sethia",
       location: "Bikaner",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Pratibha.jpeg",
       text: "सर आपकी पढ़ने का तरीका इतना सरल है कि वह सीधा दिमाग में सेट हो जाता है और सबसे बड़ी बात बहुत ही शॉर्ट में हर चीज को इतना सटीक बता देते हैं कि बहुत कम टाइम में याद हो जाता है और आपके पढ़ाने से हमारे पढ़ने में बहुत आसानी हो जाती है। आपसे प्रश्न पूछते समय मन में हिचकिचाहट नहीं रहती कि आप क्या सोचेंगे हम लोग बिंदास पूछ लेते हैं। your way of study is simply superb.🙏🏻🙏🏻"
     },
     {
@@ -40,85 +40,85 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "Deepti Dhandia",
       location: "Jaipur",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Deepti.jpeg",
       text: "Appka bahut dyanvad jo bhi app ka study karta ha..muja bahut acha se smjha aata ha ..appka study karna ka method bahut easy ha.🙏🏻😊.. aapke online adhyayan karane se Hamari study Mein Kafi help Hui Hai. aap Hame Hamesha aise hi adhyayan karate rahiye sir..om arham.🙏🏻"
     },
     {
       name: "Sneh Daga",
       location: "Kolkata",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Sneh.jpeg",
       text: "You make learning easy and understandable by your exemplary learning ways by giving examples and not just bookish knowledge. It is always easy to ask you questions and you have such great patience that you reply to each individual queries.🫡 You behave more like a friend rather than a teacher which makes us easy to ask anything.✌️ Keep teaching and growing.🪄"
     },
      {
       name: "प्रभा नाहटा",
       location: "मदुराई",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Prabha.jpeg",
       text: "स्वाध्याय के क्रम में आपकी क्लास से जुडने का अवसर प्राप्त हुआ। जिस सरलता से आप विषय का प्रतिपादन करते हैं, उदाहरण सहित उसे समझाते है, जिज्ञासाए समाहित करते है वह अनुपम है। इतनी सरलता से जब तत्व हृदयंगम हो, जिज्ञासाए समाहित हो तो स्वाध्याय के प्रति भी आकर्षण रहता है, तथा और अधिक जानने-समझने की प्रेरणा प्राप्त होती है। आभार आपके प्रति, स्वाध्याय का यह क्रम निरंतर बनाए रखें, जिससे हमें भी साधना का अवसर प्राप्त होता रहे। मनुष्य भव की सार्थकता की ओर हम अग्रसर रहें।🙏"
     },
      {
       name: "Madhu Kothari",
       location: "Tiruppur",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Madhu.jpeg",
       text: "Jj 🙏 sir aapse class karke bahut acha laga  aap esi tarh hame padhate rahe  . Aapse mene 2nd class tatv gyan ki padhai  khub ache se aapne karwai unsab ko jab padhti hu to ek baar aap jese samjhate the vese sab remind ho jata hai .shraman mahaveer nahi ker pai kyuki ab yaatra ki tayari bhi karni h esliye so thank you very much sir 🙏"
     },
      {
       name: "प्रेमा धाकड़",
       location: "मुंबई",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Prema.jpeg",
       text: "जय जिनेंद्र सर आप  जो स्वाध्याय करा रहे हो वह बहुत ही सरल तरीके से हमें समझ रहा है और  हर शब्द इतनी सरलता से  हमें  अच्छे से कंठस्थ हो जाता है ।श्रवण महावीर बुक जो पहले हमने रीड की थी पर इतनी समझ में नहीं आई अब अच्छे से समझ में आ रही है और जो लास्ट में क्वेश्चन आंसर होता है उसे तो इतने अच्छे से समझ में आ जाता है कि अब एग्जाम   आसान हो जाएगी ऐसा लगता हैं । आपसे यही विनंती है कि आप आगे भी ऐसे ही स्वाध्याय कराते रहे | आपका बहुत-बहुत साधुवाद 🙏"
     },
     {
       name: "सरोज छाजेड",
       location: "बैंगलुरु ",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Saroj.jpeg",
       text: "मैं निरंतर आपकी स्वाध्याय क्लास में जुड़ती हूँ।आपका समझाने का तरीका बहुत अच्छा है।गहरी बात भी आसानी से समझ आती है।हमने जब परीक्षा दी तो रट कर पढ़ाई की।सही समझ तो अब आई है।आप हमारे लिये कितना श्रम करते हैं।अनंत कृतज्ञता।🙏🏻स्वाध्याय का यह क्रम निरंतर चलता रहे।ज्ञानगंगा प्रवाहित होती रहे।पिपासु लोग लाभान्वित होते रहें।बारम्बार निवेदन आप हमें ज्ञान प्राप्त करने में एवं कर्म निर्जरा में योगभूत बनते रहें।यही शुभेच्छा। ॐअर्हम्"
     },
     {
       name: "Meenu Sancheti",
       location: "Hyderabad",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Meenu.jpeg",
       text: "Actually mene socha tha is baar Sanatak ka exam ache se dena h so Jain Vidhya ko light hi le rahe thi or last me 1 month padh k passing marks jitna la lenge  but jab aapka 2nd class attend ki to itna acha laga ki 1 bhi class miss na ho . Study me interest aane laga . Sabse jyada acha yahi laga ki isme sab koi participate kar sakte .Pahle baar aisa laga ki hum apni jigyasa ko freely puch pa rahe .ye sab aapke cool behave ki vajah se bhi ho raha 🙏.kabhi kisi se puchne ka aisa avasar nhi mila. Ab lag raha jo bhi exam de aise hi koi padha de to sab easy or interesting ho jata h.Thank you so much sir 🙏🙏"
     },
     {
       name: "Ranju Patwa",
       location: "Jodhpur",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Ranju.jpeg",
       text: "Jai jinendra sa..aaj ki class bahut gyanvardhakh hai sir,sikhna ko samajh ne ko bahut aasan ho jata hai ..aap ki padhane ke aur samajhana ki shalli se hum topic ko yaad rakh kar discuss bhi kar sakte hai apna family members ke sath🙏🏻 sir aap ki bahut bahut aabhar🙏🏻"
     },
     {
       name: "Savita Surana",
       location: "Delhi",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Savita.jpeg",
       text: "I want to express my heartfelt appreciation for the incredible job you do for our study . Your clear and detailed lessons make it easy for us to understand every topic, and your practical approach helps us see how to apply what we've learned in real life. Your dedication and hard work have made learning both enjoyable and valuable for our future. I'm truly grateful for your efforts."
     },
     {
       name: "Kavita Dugar",
       location: "Kolkata",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Kavita.jpeg",
       text: "Jai jinendra sa🙏🏻 Aapka adhyapan ka ye kram nihsandeh hi anumodaniya hai...iske liye tahedil se aabhar. Aapke prayas aur lagatar prayatn se hum sabhi jo aapse zoom ke madhyam se jude wo nishchit rup se labhanvit hue hain aisa prateet hota hai. Ek vinamr nivedan hai aapse ki is kram ko jaari rakhen aur ek ek kar sabhi thokde aur avbodh pustak ka sampoorna swadhyay karwa saken to sabhi labhanvit honge. shanivar ki subah ka kram vishesh ullekhniya hai.kuch vishay jaise anekantwad, nay,anupreksha aadi par vistrit jaankari pradan karne ka kram chal sakta hai.🙏🏻"
     },
     {
       name: "Suman Choraria",
       location: "Secundarabad",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Suman.jpeg",
       text: "Shraman bhagwan Mahavir book ka adhyan jabse apne padhana shuru kiya hai tabse iss pustak k prati Ruchi badh gayi hai. Ek ghante ki class kab khatam ho jati hai pata nhi chalta. Aise toh lesson ko padhne Mai bht katnayi aati thi par apke padhane k baad sub samaj aata hai. Kritogyosmi Sir"
     },
     {
       name: "डिंपल किरण परमार",
       location: "मुंबई",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Dimple.jpeg",
       text: "आपकी जो तत्वज्ञान भाग 2 की क्लास थी वह मैंने लगभग 80% क्लास अटेंड कि है सर🙏 जिसमें मेरा यह अनुभव रहा है कि आपकि  क्लास में जो अनुशासन और समय बाधता थी। वो में मेरे रूटीन में लानेकी कोशिश कर रही हु। आपने बहोत सरल भाषा में तत्व ज्ञान भाग 2 अधन्य करवाया। सबसे अच्छी बात आपने अपना you tube channel बनाके किया है। जिसे स्टडी में बहोत मदद मिलती हैं। बहुत-बहुत कृतज्ञता आपके प्रति। आपके आध्यात्मिक जीवन की मंगल कामना करती हूं।"
     },
      {
       name: "ममता बोथरा",
       location: "जयपुर",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Mamta.jpeg",
       text: "सर आपके पढ़ानें की शैली में सजगता, सरलता एवम समाधान का समन्वय है। सजगता तत्वों के प्रति - जिनको आपने हमे समझाने का पूर्ण प्रयास किया और हम समझ भी पाए, सरलता समझाने में- तत्वों को इतनी सरलता से समझा पाना अपने आप में बहुत कठिन प्रतीत होता है, साथ ही साथ समाधान - यानी हमारी सभी जिज्ञासा का पाठन के बीच में ही समाधान दिया। आपने धर्म को आचरण व day to day life में उतारने की हमे प्रबल प्रेरणा दी। इस क्लास की वजह से मेरा स्वाध्याय नियमित हो गया  एवम धर्म व तत्व के प्रति रुचि भी बढ़ी है। मैं गुरुदेव व सर के प्रति कृतज्ञता ज्ञापित करती हूं।"
     },
     {
       name: "हेमलता लुनिया",
       location: "अहमदाबाद",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Hemlata.jpeg",
       text: "श्रमण  भगवान महावीर की पुस्तक का अध्ययन सर  बहुत अच्छा करवा रहे हैं। बार-बार अध्ययन करने से हमें याद करने में फायदा रहेगा 86 वर्ष के मेरी सासू मां भी सर पढ़ाते हैं तो वह भी मेरे पास बैठ जाते हैं समय होने पर बोलते हैं क्लास का टाइम हो गया है उनका भी मन रहता है ,मैं भी भगवान के बारे में सुनलु 🙏"
     }
   ];

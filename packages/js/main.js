@@ -124,21 +124,35 @@ modalCloses.forEach((modalClose) => {
 });
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiperPortfolio = new Swiper(".portfolio__container", {
-  cssMode: true,
+let swiperPortfolio;
 
-  /* IMPORTANT: turn off loop — it creates cloned slides */
-  loop: false,
+function initPortfolioSwiper() {
+  if (window.innerWidth >= 768) {
+    if (!swiperPortfolio) {
+      swiperPortfolio = new Swiper(".portfolio__container", {
+        cssMode: true,
+        loop: false,   // IMPORTANT: avoids duplicate slides
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    }
+  } else {
+    if (swiperPortfolio) {
+      swiperPortfolio.destroy(true, true);
+      swiperPortfolio = null;
+    }
+  }
+}
 
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+initPortfolioSwiper();
+window.addEventListener("resize", initPortfolioSwiper);
 
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
 
   /* Fix mobile layout: show only 1 */
   /*breakpoints: {
@@ -340,6 +354,7 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(section);
   });
 });
+
 
 
 

@@ -126,7 +126,9 @@ modalCloses.forEach((modalClose) => {
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiperPortfolio = new Swiper(".portfolio__container", {
   cssMode: true,
-  loop: true,
+
+  /* IMPORTANT: turn off loop — it creates cloned slides */
+  loop: false,
 
   navigation: {
     nextEl: ".swiper-button-next",
@@ -138,8 +140,11 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
     clickable: true,
   },
 
-  /* mousewheel: true,
-  keyboard: true, */
+  /* Fix mobile layout: show only 1 */
+  breakpoints: {
+    0: { slidesPerView: 1 },         // mobile
+    768: { slidesPerView: 2 }        // tablet/desktop
+  }
 });
 
 /*==================== TESTIMONIAL ====================*/
@@ -335,4 +340,5 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(section);
   });
 });
+
 

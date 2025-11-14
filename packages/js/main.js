@@ -141,10 +141,10 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
   },
 
   /* Fix mobile layout: show only 1 */
-  breakpoints: {
+  /*breakpoints: {
     0: { slidesPerView: 1 },         // mobile
     768: { slidesPerView: 2 }        // tablet/desktop
-  }
+  }*/
 });
 
 /*==================== TESTIMONIAL ====================*/
@@ -340,5 +340,6 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(section);
   });
 });
+
 
 

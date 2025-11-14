@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "Sital Jain",
       location: "Kolkata",
-      image: "./packages/images/testimonial dhar.jpg",
+      image: "./packages/images/Sital.jpeg",
       text: "Aapke Classes bohot acchi laagti hai. Aap iss par dhyan dete hai ki humein jain dhram ka basic se lekar deep knowledge prapt ho sake..aap jo bhi book parate hai wo exam ke dristi se nahi balki gyan arjan ke liye karwate hai.. Usmein bhi agar hum koyi bhi general topic  jaise daily life mein kya kya follow karna cahiye etc. ka doubt hota hai uska bhi samadhan bohot acche se turant de dete hai .Humein aap samyakti baane ke liye prena dete hai. Aap aishe bhi class dete hai aur humari samyak dristi pusht karte hai."
     },
     {

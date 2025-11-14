@@ -123,43 +123,21 @@ modalCloses.forEach((modalClose) => {
   });
 });
 
-/*==================== PORTFOLIO SWIPER  ====================*/
-let swiperPortfolio;
+/*==================== PORTFOLIO SWIPER ====================*/ 
+let swiperPortfolio = new Swiper(".portfolio__container", 
+    { cssMode: true,
+     loop: true,
+     navigation: { 
+       nextEl: ".swiper-button-next", 
+       prevEl: ".swiper-button-prev", 
+    }, 
+     pagination: { 
+       el: ".swiper-pagination", 
+       clickable: true, 
+     }, 
+     /* mousewheel: true, keyboard: true, */
+    });
 
-function initPortfolioSwiper() {
-  if (window.innerWidth >= 768) {
-    if (!swiperPortfolio) {
-      swiperPortfolio = new Swiper(".portfolio__container", {
-        cssMode: true,
-        loop: false,   // IMPORTANT: avoids duplicate slides
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    }
-  } else {
-    if (swiperPortfolio) {
-      swiperPortfolio.destroy(true, true);
-      swiperPortfolio = null;
-    }
-  }
-}
-
-initPortfolioSwiper();
-window.addEventListener("resize", initPortfolioSwiper);
-
-
-  /* Fix mobile layout: show only 1 */
-  /*breakpoints: {
-    0: { slidesPerView: 1 },         // mobile
-    768: { slidesPerView: 2 }        // tablet/desktop
-  }*/
-});
 
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper(".testimonial__container", {
@@ -354,6 +332,7 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(section);
   });
 });
+
 
 
 

@@ -123,20 +123,35 @@ modalCloses.forEach((modalClose) => {
   });
 });
 
-/*==================== PORTFOLIO SWIPER ====================*/ 
-let swiperPortfolio = new Swiper(".portfolio__container", 
-    { cssMode: true,
-     loop: true,
-     navigation: { 
-       nextEl: ".swiper-button-next", 
-       prevEl: ".swiper-button-prev", 
-    }, 
-     pagination: { 
-       el: ".swiper-pagination", 
-       clickable: true, 
-     }, 
-     /* mousewheel: true, keyboard: true, */
-    });
+/*==================== PORTFOLIO SWIPER (no duplicate slides on mobile) ====================*/
+function initSwiper() {
+  let loopSetting = window.innerWidth > 768; // desktop = true, mobile = false
+
+  new Swiper(".portfolio__container", {
+    cssMode: true,
+    loop: loopSetting,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+}
+
+initSwiper();
+
+// Optional: reinitialize when screen size changes
+window.addEventListener("resize", () => {
+  const swiper = document.querySelector(".portfolio__container").swiper;
+  if (swiper) swiper.destroy(true, true);
+  initSwiper();
+});
+
 
 
 /*==================== TESTIMONIAL ====================*/
@@ -332,6 +347,7 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(section);
   });
 });
+
 
 
 
